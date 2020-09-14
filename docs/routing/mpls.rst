@@ -18,8 +18,8 @@ The **Multi-Protocol Label Switching** (MPLS) architecture does not
 assume a single protocol to create MPLS paths. VyOS supports the Label
 Distribution Protocol (LDP) as implemented by FRR, based on `RFC 5036 <https://tools.ietf.org/html/rfc5036.html>`__.
 
-LDT it is an MPLS signaling protocol that distributes labels creating
-MPLS paths in a dynamic manner. LDT is not exactly a routing protocol,
+LDP it is an MPLS signaling protocol that distributes labels creating
+MPLS paths in a dynamic manner. LDP is not exactly a routing protocol,
 as it relies on other routing protocols for forwarding decisions.
 
 
